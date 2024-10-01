@@ -9,7 +9,9 @@
 (apt update - upgrade)
 
 apt install nmap
+
 apt install hydra-gtk
+
 apt install hping3
 
 - Nmap : pour les scans de ports et de services
