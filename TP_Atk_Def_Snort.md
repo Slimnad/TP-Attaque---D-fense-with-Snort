@@ -14,7 +14,9 @@ apt install hping3
 - Nmap : pour les scans de ports et de services
 
 nmap 10.0.0.105 (scan par défaut en TCP= SYN,SYN-ACK,ACK)
+
 nmap -sS 10.0.0.105 (-sS = scan SYN seulement)
+
 nmap -sS -f 10.0.105 (-f = active la fragmentation des paquets)
 
 ![image](https://github.com/user-attachments/assets/74145394-5684-426f-ad3e-ba64a7b4b002)
