@@ -65,6 +65,7 @@ alert tcp any any -> 10.0.0.112 22 (msg:"!!! SSH ALERT !!!";sid:1000004;rev:1;cl
 - Detection HTTP et HTTPS :
 
 alert tcp any any -> 10.0.0.112 443 (msg:"!!! HTTPS Alert !!!";sid:1000005;rev:1 classtype:icmpevent;)
+
 alert tcp any any -> 10.0.0.112 80 (msg:"OSCUR HTTP ALERT !";sid:1000006;rev:1;)
 
 ![image](https://github.com/user-attachments/assets/02c0d202-0e35-4b8e-ade0-0a8cec5965de)
