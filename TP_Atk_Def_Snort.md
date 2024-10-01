@@ -59,6 +59,7 @@ alert tcp any any -> 10.0.0.112 1:1024 (msg:"Nmap TCP SYN scan detected";sid:100
 - Detection intrustion SSH :
 
 alert tcp any any -> 10.0.0.112 22 (msg:"Possible SSH brute-force attempt";sid:1000003;rev:1;classtype:tcpevent;)
+
 alert tcp any any -> 10.0.0.112 22 (msg:"!!! SSH ALERT !!!";sid:1000004;rev:1;classtype:tcpevent;)
 
 - Detection HTTP et HTTPS :
