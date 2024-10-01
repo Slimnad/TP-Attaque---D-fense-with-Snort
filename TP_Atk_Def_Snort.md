@@ -17,7 +17,8 @@ nmap 10.0.0.105 (scan par défaut en TCP= SYN,SYN-ACK,ACK)
 nmap -sS 10.0.0.105 (-sS = scan SYN seulement)
 nmap -sS -f 10.0.105 (-f = active la fragmentation des paquets)
 
-![image]()
+![image](https://github.com/user-attachments/assets/74145394-5684-426f-ad3e-ba64a7b4b002)
+
 
 - Hydra : pour les attaques par force brute sur SSH
 
