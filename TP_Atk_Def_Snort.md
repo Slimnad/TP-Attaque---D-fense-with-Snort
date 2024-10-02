@@ -1,4 +1,4 @@
-# TP Attaque et Défense avec Snort (by Yanis)
+# TP Attaque et Défense avec Snort
 *Voir procedure installation et configuration Snort3*
 
 ## Outils utilisés pour les attaques :
